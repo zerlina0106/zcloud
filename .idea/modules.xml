@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/zerlina_cloud.iml" filepath="$PROJECT_DIR$/zerlina_cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/common/common.iml" filepath="$PROJECT_DIR$/parent/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/file/file.iml" filepath="$PROJECT_DIR$/parent/file/file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/gateway/gateway.iml" filepath="$PROJECT_DIR$/parent/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/user/user.iml" filepath="$PROJECT_DIR$/parent/user/user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/weka/weka.iml" filepath="$PROJECT_DIR$/parent/weka/weka.iml" />
     </modules>
   </component>
 </project>

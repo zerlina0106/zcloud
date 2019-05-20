@@ -9,9 +9,9 @@ spring:
         instance-id: ${spring.application.name}:${server.port}
         register: true
 #        prefer-ip-address: true
-        hostname: 119.23.52.225
+#        hostname: 119.23.52.225
   datasource:
-        url: jdbc:mysql://119.23.52.225:3306/use_cloud?characterEncoding=utf-8&autoReconnect=true&useSSL=false
+        url: jdbc:mysql://119.23.52.225:3306/use_cloud?characterEncoding=utf-8&autoReconnect=true&useSSL=false&AllowPublicKeyRetrieval=True
         username: yangyangyang
         password: yyy
         driver-class-name: com.mysql.cj.jdbc.Driver

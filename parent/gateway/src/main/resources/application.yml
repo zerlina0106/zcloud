@@ -11,7 +11,7 @@ spring:
         instance-id: ${spring.application.name}:${server.port}
         register: true
 #        prefer-ip-address: true
-        hostname: 119.23.52.225
+#        hostname: 119.23.52.225
     gateway:
       discovery:
         locator:

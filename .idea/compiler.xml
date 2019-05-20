@@ -6,10 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="zerlina_cloud" />
+        <module name="common" />
+        <module name="file" />
+        <module name="gateway" />
+        <module name="user" />
+        <module name="weka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
+      <module name="file" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="parent" target="1.8" />
+      <module name="user" target="1.8" />
+      <module name="weka" target="1.8" />
       <module name="zerlina_cloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
