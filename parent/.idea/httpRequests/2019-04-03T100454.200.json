@@ -1,0 +1,10 @@
+{
+  "messages": [
+    {
+      "code": "1000",
+      "message": "验证码发送成功"
+    }
+  ],
+  "data": null,
+  "code": "1000"
+}

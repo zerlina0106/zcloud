@@ -1,0 +1,25 @@
+{
+  "messages": [
+    {
+      "code": "1000",
+      "message": "success."
+    }
+  ],
+  "data": {
+    "total": 1,
+    "rows": [
+      {
+        "id": 9,
+        "uid": 1,
+        "fid": 8,
+        "superid": 0,
+        "name": "课堂测试.doc",
+        "createtime": "2019-04-20T06:33:08.000+0000",
+        "type_1": "文档",
+        "type_2": "1",
+        "size": null
+      }
+    ]
+  },
+  "code": "1000"
+}

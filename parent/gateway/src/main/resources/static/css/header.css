@@ -1,0 +1,24 @@
+#log-area{
+    width: 80px;
+    height: 70px;
+    top: 1px;
+
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+#nav .middle{
+    display: inline-block;
+    line-height: 70px;
+    font-size: 15px;
+    color: white;
+}
+#title {
+    color: snow;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    height: 70px;
+    line-height: 40px;
+    padding: 12px 0px 0px 12px;
+}

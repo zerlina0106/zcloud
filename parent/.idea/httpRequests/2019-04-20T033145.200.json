@@ -1,0 +1,13 @@
+{
+  "messages": [
+    {
+      "code": "1000",
+      "message": "success."
+    }
+  ],
+  "data": {
+    "total": 0,
+    "rows": []
+  },
+  "code": "1000"
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Sign</title>
+	<link rel="stylesheet" href="css/sign.css" type="textcss"/>
+    <script type="text/javascript" src="js/network.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/sign.js"></script>
+</head>
+<body>
+	<div id="bg">
+		<div id="sign-bg">
+			<div id="welcome-area">
+			</div>
+			<div id="input-username-area">
+				<input type="text" placeholder="用户名"
+					   id="username-input">
+			</div>
+			<div id="input-password-area">
+				<input type="password" placeholder="密码"
+					   id="password-input">
+			</div>
+			<div id="sign-area">
+				<!--<button type="button" id="sign-button" >-->
+					<!--登录-->
+				<!--</button>-->
+				<input type="submit" id="sign-submit"
+					   value="登录" onclick="signFunction();">
+			</div>
+			<div id="register-area" >
+				<a href="register.html">立即注册</a>
+			</div>
+			<div id="forget-password-area">
+				<a href="">忘记密码?</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

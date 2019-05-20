@@ -1,0 +1,342 @@
+body{
+    /*background-image: url("../images/2.jpg");*/
+    background-color: rgb(48, 48, 48);;
+}
+
+* {
+    background-repeat:no-repeat;
+    background-position:left top;
+    background-size: cover;
+
+}
+
+a {
+    float: left;
+    text-decoration: none;
+    display: block;
+    color: #2c2c2c;
+}
+
+a:link,a:visited,a:hover,a:active {
+    text-decoration: none;
+    color:#2c2c2c;
+}
+
+
+#left-bg, #floor2, #main-bg{
+    position: absolute;
+    background-color: transparent;
+}
+/* 上下 */
+#left-bg{
+    top: 101px;
+}
+#floor2{
+    top: 93px;
+}
+#main-bg{
+    top: 150px;
+    bottom: 0;
+}
+/* 左右 */
+#left-bg{
+    width: 12%;
+    left: 3%;
+    bottom: 1px;
+}
+
+#floor2, #main-bg{
+    left: 15%;
+    width: 83%;
+}
+/* 分别 */
+#floor2{
+    height: 30px;
+}
+
+#main-bg{
+    border-radius: 5px;
+    margin: fill;
+    background-color: white;
+    opacity: 0.95;
+}
+
+
+/* floor2的文字 */
+#floor2 .middle{
+    display: inline-block;
+    line-height: 30px;
+    color: white;
+}
+
+
+#right-top-bg{
+    background-color: transparent;
+    left: 150px;
+    height: 60px;
+    right: 0;
+}
+
+#right-top-area{
+    height: 60px;
+    margin: fill;
+}
+
+#floor1{
+    height: 50px;
+    margin: fill;
+}
+
+#floor3{
+    height: 30px;
+    margin: fill;
+    /*border-bottom: black;*/
+    border-bottom:1px dashed #6d6d6d;
+}
+#DFile-area{
+    position: absolute;
+    bottom: 0;
+    top: 100px;
+    left: 2px;
+    right: 8px;
+    opacity: 0.95;
+    /*background-color: darkgreen;*/
+}
+#floor1 >div{
+    top: 10px;
+    height: 35px;
+    position: relative;
+    float: left;
+}
+
+/* 选择文件 */
+#upload-file-area{
+    left: 10px;
+}
+/* 选择文件夹 */
+#upload-dir-area{
+    left: 30px;
+}
+/* 新建文件夹 */
+#new-folder-area{
+    left: 45px;
+}
+/* 下载 */
+#download-area{
+    left: 60px;
+}
+/* 返回上一级 */
+#last-back{
+    left: 70px;
+}
+
+/* 智能分类 */
+#classify-area{
+    width: 150px;
+    margin-right: 80px;
+    min-height: 35px;
+    max-height: 35px;
+    float: right !important;
+}
+
+#classify-area #classify{
+    background: #5a6268;
+    margin-left: -4px;
+}
+#classify-area .img{
+    width: 50px;
+    left: 50px;
+    min-height: 30px;
+    max-height: 30px;
+    float: left;
+}
+#classify-area .img img{
+    margin-top: 3px;
+    width: 90%;
+    height: 70%;
+}
+
+/* 搜索 */
+#search-area{
+    float: right !important;
+    width: 248px;
+    right: 10px;
+}
+
+
+
+#upload-file{
+    left:-9999px;
+    position:absolute
+}
+
+
+#floor1 label{
+    width: 80px;
+    height: 25px;
+    display: inline-block;
+    background: rgb(48, 48, 48);;
+    border: 1px solid #505050;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: whitesmoke;
+}
+
+#upload-dir{
+    left:-9999px;
+    position:absolute
+}
+
+#search-text{
+    background-color: white;
+    border-radius: 50px;
+    width: 248px;
+    height: 40px;
+    border: 0px;
+    font-size: 15px;
+    text-align: center;
+    outline: none;
+}
+#floor2 div{
+    font-weight:bold;
+    font-size: 20px;
+}
+
+#home-area{
+    width: 40px;
+    height: 30px;
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+#spilt-area{
+    width: 5px;
+    height: 5px;
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 43px;
+}
+#last-area{
+
+    width: 220px;
+    height: 20px;
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 50px;
+    font-size: 18px;
+}
+#show-number-area{
+    width: 200px;
+    height: 20px;
+    float: right;
+    position: relative;
+    top: 5px;
+    right: 10px;
+
+}
+#choose-all-area{
+    width: 200px;
+    height: 20px;
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
+#choose-all {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#choose-all i {
+    font-size: 20px;
+    font-style: normal;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    color: #fff;
+    vertical-align: middle;
+    margin: -2px 2px 1px 0px;
+    border: #2489c5 1px solid;
+}
+
+#choose-all input[type="checkbox"],
+input[type="radio"] {
+    display: none;
+}
+
+#choose-all input[type="radio"]+i {
+    border-radius: 7px;
+}
+
+#choose-all input[type="checkbox"]:checked+i,
+input[type="radio"]:checked+i {
+    background: #2489c5;
+}
+
+#size-area{
+    width: 200px;
+    height: 20px;
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 620px;
+}
+#date-area{
+    width: 200px;
+    height: 20px;
+    float: right;
+    position: relative;
+    top: 5px;
+    right: 10px;
+
+}
+
+
+.menu {
+    z-index: 9999;
+    width: 100px;
+    border: 1px solid #ccc;
+    position: absolute;
+    box-shadow: 0 0 3px rgba(0,0,0,.2);
+    padding: 5px 0;
+    transition: all .1s ease;
+}
+.menu li {
+    list-style: none;
+    width: 100%;
+}
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+}
+.menu li:first-of-type{
+    border-radius: 3px 3px 0 0;
+}
+.menu li a:hover,
+.menu li a:active {
+    background: #eee;
+    color: #0AAF88;
+}
+
+#loading-area{
+    width: 124px;
+    height:124px;
+    position: absolute;
+    top:50%;
+    margin-left:-80px;
+    margin-top:-28px;
+    left:50%;
+    background-image: url("../images/loading.gif");
+    z-index:9999;
+}

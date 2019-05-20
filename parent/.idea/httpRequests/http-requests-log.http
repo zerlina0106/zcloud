@@ -1,0 +1,548 @@
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "0" , "uid":"1"   }
+
+<> 2019-04-20T034754.200.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-40" , "uid":"1"   }
+
+<> 2019-04-20T033225.200.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-40" , "uid":"1"   }
+
+<> 2019-04-20T033215.200.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-40" , "uid":"1"   }
+
+<> 2019-04-20T033150.200.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-42" , "uid":"1"   }
+
+<> 2019-04-20T033145.200.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-41" , "uid":"1"   }
+
+<> 2019-04-20T033131.200.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-11" , "uid":"1"   }
+
+<> 2019-04-20T033122.200.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-12" , "uid":"1"   }
+
+<> 2019-04-20T033106.200.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-42" , "uid":"1"   }
+
+<> 2019-04-20T033056.200.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-42" , "uid":"1"   }
+
+<> 2019-04-20T033006.500.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-42" , "uid":"1"   }
+
+<> 2019-04-20T032832.500.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-42" , "uid":"1"   }
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-42" , "uid":"1"   }
+
+<> 2019-04-20T032752.500.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-4" , "uid":"1"   }
+
+<> 2019-04-20T032719.200.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-5" , "uid":"1"   }
+
+<> 2019-04-20T032709.200.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-5" , "uid":"1"   }
+
+<> 2019-04-20T032404.500.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-5" , "uid":"1"   }
+
+<> 2019-04-20T032354.500.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-5" , "uid":"1"   }
+
+<> 2019-04-20T032309.500.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-5" , "uid":"1"   }
+
+<> 2019-04-20T032303.500.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-5"  }
+
+<> 2019-04-20T032228.500.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-5"  }
+
+<> 2019-04-20T032143.500.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-5"  }
+
+<> 2019-04-20T032127.500.json
+
+###
+
+POST http://localhost:9993/getWeka1
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-50"  }
+
+<> 2019-04-20T032105.200.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-50"  }
+
+<> 2019-04-20T032027.500.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-50"  }
+
+<> 2019-04-20T031927.500.json
+
+###
+
+POST http://localhost:9993/getDir
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-50"  }
+
+<> 2019-04-20T031913.500.json
+
+###
+
+POST http://localhost:9993/getWeka
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-5"  }
+
+<> 2019-04-20T031855.200.json
+
+###
+
+POST http://localhost:9993/getWeka
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-2"  }
+
+<> 2019-04-20T031840.200.json
+
+###
+
+POST http://localhost:9993/getWeka
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-2"  }
+
+<> 2019-04-20T031736.200.json
+
+###
+
+POST http://localhost/file/getWeka
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-2"  }
+
+<> 2019-04-20T031602.200.json
+
+###
+
+POST http://localhost/file/getWeka
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-1"  }
+
+<> 2019-04-20T031509.200.json
+
+###
+
+POST http://localhost/file/getWeka
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-1"  }
+
+<> 2019-04-20T031252.200.json
+
+###
+
+POST http://localhost/file/getWeka1
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-1"  }
+
+<> 2019-04-20T031223.200.json
+
+###
+
+POST http://localhost/file/getWeka1
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-1"  }
+
+<> 2019-04-20T031215.503.json
+
+###
+
+POST http://localhost/file/getWeka1
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-1"  }
+
+<> 2019-04-20T031214.503.json
+
+###
+
+POST http://localhost/file/getWeka1
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-1"  }
+
+<> 2019-04-20T031211.503.json
+
+###
+
+POST http://localhost/file/getWeka1
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-1"  }
+
+<> 2019-04-20T031209-1.503.json
+
+###
+
+POST http://localhost/file/getWeka1
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-1"  }
+
+<> 2019-04-20T031209.503.json
+
+###
+
+POST http://localhost/file/getWeka1
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-1"  }
+
+<> 2019-04-20T031208.503.json
+
+###
+
+POST http://localhost/file/getWeka1
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-1"  }
+
+<> 2019-04-20T031207.503.json
+
+###
+
+POST http://localhost/file/getWeka1
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-1"  }
+
+<> 2019-04-20T031205.503.json
+
+###
+
+POST http://localhost/file/getWeka1
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-1"  }
+
+<> 2019-04-20T031142.200.json
+
+###
+
+POST http://localhost/file/getWeka1
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-1"  }
+
+<> 2019-04-20T030858.200.json
+
+###
+
+POST http://localhost/file/getWeka1
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-1"  }
+
+<> 2019-04-20T030850.503.json
+
+###
+
+POST http://localhost/file/getWeka
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "superid": "-1"  }
+
+<> 2019-04-20T030446.200.json
+
+###
+
+POST http://localhost/user/sign
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "phone": "18742588402"  }
+
+<> 2019-04-18T075116.200.json
+
+###
+
+POST http://localhost/user/sendMessage
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "phone": "18742588402"  }
+
+<> 2019-04-03T100454.200.json
+
+###
+
+POST http://localhost/user/register
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "password": "0",     "name": "0" }
+
+<> 2019-04-03T092548.200.json
+
+###
+
+POST http://localhost/user/test
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "password": "0",     "name": "0" }
+
+<> 2019-04-03T092542.200.json
+
+###
+
+POST http://localhost/user/regiser
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{           "password": "0",     "name": "0" }
+
+<> 2019-04-03T092515.404.json
+
+###
+

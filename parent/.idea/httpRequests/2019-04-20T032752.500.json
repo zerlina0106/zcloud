@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-04-20T07:27:52.841+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "当前实体类不包含名为TYPE_1的属性!",
+  "path": "/getDir"
+}

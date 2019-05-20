@@ -1,0 +1,20 @@
+server:
+  port: 9992
+spring:
+  application:
+      name: user
+  cloud:
+    consul:
+      discovery:
+        instance-id: ${spring.application.name}:${server.port}
+        register: true
+#        prefer-ip-address: true
+        hostname: 119.23.52.225
+  datasource:
+        url: jdbc:mysql://119.23.52.225:3306/use_cloud?characterEncoding=utf-8&autoReconnect=true&useSSL=false
+        username: yangyangyang
+        password: yyy
+        driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl

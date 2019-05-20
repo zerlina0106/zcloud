@@ -1,0 +1,27 @@
+#main{
+    background: #f0f0f0;
+}
+#main >div{
+    height: 400px;
+}
+
+#left ul, #left li{
+    background: transparent;
+}
+#floor1{
+    height: 50px;
+}
+#floor2{
+    background: #1c7430;
+    height: 350px;
+}
+
+#floor1 .middle {
+    display: inline-block;
+    line-height: 50px;
+}
+
+#floor1 .middle {
+    display: inline-block;
+    line-height: 50px;
+}

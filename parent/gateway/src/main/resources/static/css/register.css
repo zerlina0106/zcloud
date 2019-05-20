@@ -1,0 +1,182 @@
+body{
+    /*background-image: url("../images/2.jpg");*/
+    background-color: #dad5e1;
+}
+/*body{*/
+    /*background-image: url("../images/register-bg.jpg");*/
+/*}*/
+@keyframes fade-in {
+    0% {opacity: 0;}
+    40% {opacity: 0;}
+    100% {opacity: 0.75;}
+}
+@-webkit-keyframes fade-in {/*针对webkit内核*/
+    0% {opacity: 0;}
+    40% {opacity: 0;}
+    100% {opacity: 0.75;}
+}
+#register-bg{
+    width: 400px;
+    height: 450px;
+    background-image: url("../images/sign.png");
+    margin: 100px auto auto;
+    opacity: 0.75;
+    animation: fade-in;
+    animation-duration: 1.5s;
+    -webkit-animation:fade-in 1.5s;
+
+    border-radius: 5px;
+    border: 5px;
+}
+#welcome-area{
+    width: 150px;
+    height: 60px;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    border-radius: 30px;
+    border: 30px;
+    background-image: url("../images/log.png");
+}
+#input-username-area{
+    width: 300px;
+    height: 30px;
+    margin: 10px auto auto;
+    position: relative;
+    top: 20px;
+}
+#username-input{
+    width: 300px;
+    height: 30px;
+    border-radius: 50px;
+    border: 50px;
+    text-align: center;
+    /*outline: none;*/
+
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    font-family: "宋体";
+}
+#input-password-area{
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    position: relative;
+    top: 40px;
+}
+#password-input{
+    width: 300px;
+    height: 30px;
+    border-radius: 50px;
+    border: 50px;
+    text-align: center;
+    outline: none;
+
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "宋体";
+}
+#input-password-again-area{
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    position: relative;
+    top: 60px;
+}
+#password-again-input{
+    width: 300px;
+    height: 30px;
+    border-radius: 50px;
+    border: 50px;
+    text-align: center;
+    outline: none;
+
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "宋体";
+}
+#input-telephone-area{
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    position: relative;
+    top: 80px;
+}
+#telephone-input{
+    width: 300px;
+    height: 30px;
+    border-radius: 50px;
+    border: 50px;
+    text-align: center;
+    outline: none;
+
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    font-family: "宋体";
+}
+#input-verificationCode-area{
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+#verificationCode-input{
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    border: 50px;
+    text-align: center;
+    outline: none;
+
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    font-family: "宋体";
+    float: left;
+    
+}
+#verification-btn{
+    width: 90px;
+    height: 30px;
+    border-radius: 50px;
+    border: 50px;
+    text-align: center;
+    outline: none;
+
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Times New Roman";
+    font-family: "宋体";
+    float: left;
+}
+#register-area{
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    position: relative;
+    top: 120px;
+}
+#register-submit{
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: 50px;
+    text-align: center;
+    outline: none;
+
+    font-size: 30px;
+    font-family: "宋体";
+    transition:background 1s;
+}
+
+#register-submit:hover{
+    background: gray;
+}
+
+.input-rim input:focus {
+    border: solid #1b00ff;
+    box-shadow: 0 0 15px #03a9f4;
+}

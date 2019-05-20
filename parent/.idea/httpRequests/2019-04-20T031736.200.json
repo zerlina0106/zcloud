@@ -1,0 +1,36 @@
+{
+  "messages": [
+    {
+      "code": "1000",
+      "message": "success."
+    }
+  ],
+  "data": {
+    "total": 2,
+    "rows": [
+      {
+        "id": null,
+        "uid": null,
+        "fid": -21,
+        "superid": null,
+        "name": null,
+        "createtime": null,
+        "type_1": null,
+        "type_2": null,
+        "size": null
+      },
+      {
+        "id": null,
+        "uid": null,
+        "fid": -22,
+        "superid": null,
+        "name": null,
+        "createtime": null,
+        "type_1": null,
+        "type_2": null,
+        "size": null
+      }
+    ]
+  },
+  "code": "1000"
+}

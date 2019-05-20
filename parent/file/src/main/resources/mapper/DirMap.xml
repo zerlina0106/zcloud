@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.yyy.file.mapper.DirMap">
+    <resultMap id="dir" type="cn.yyy.file.model.Dir"/>
+    <parameterMap id="fileModel" type="cn.yyy.file.model.FileModel"/>
+
+    <select id="getDirWithUserIdAndDirId" resultMap="dir">
+        select dir.UID uid, dir.FID fid,dir.createTime createtime, dir.ID id, dir.name name, file.size size
+        from dir left join file on dir.fid = file.fid
+        where dir.UID = #{param1} and dir.superID =  #{param2}
+    </select>
+    <select id="searchFileWithNameAndUser" parameterMap="fileModel" resultMap="dir">
+        select dir.UID uid, dir.FID fid,dir.createTime createtime, dir.ID id, dir.name name, file.size size
+        from dir left join file on dir.fid = file.fid
+        <where>
+            <if test="name != null">dir.name LIKE CONCAT('%',#{name},'%')</if>
+            <if test="userid != null">dir.userid = #{userid}</if>
+        </where>
+    </select>
+</mapper>

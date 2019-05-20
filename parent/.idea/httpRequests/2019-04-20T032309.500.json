@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-04-20T07:23:09.166+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "-1",
+  "path": "/getDir"
+}

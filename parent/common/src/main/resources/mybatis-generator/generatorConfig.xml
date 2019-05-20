@@ -1,0 +1,84 @@
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<!--suppress MybatisGenerateCustomPluginInspection -->
+<generatorConfiguration>
+    <properties resource="mybatis-generator/configuration.properties"/>
+
+    <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <property name="useMapperCommentGenerator" value="false"/>
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+
+
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <property name="mappers" value="tk.mybatis.mapper.common.Mapper"/>
+            <property name="caseSensitive" value="true"/>
+            <!--使用 Data 时，Getter,Setter 无效-->
+            <property name="lombok" value="Getter,Setter,Data,ToString,Accessors,EqualsAndHashCode"/>
+        </plugin>
+
+        <!--&lt;!&ndash;通用代码生成器插件&ndash;&gt;-->
+        <!--&lt;!&ndash;mapper接口&ndash;&gt;-->
+        <!--<plugin type="tk.mybatis.mapper.generator.TemplateFilePlugin">-->
+            <!--<property name="targetProject" value="src/main/java"/>-->
+            <!--<property name="targetPackage" value="${package.mapper}"/>-->
+            <!--<property name="templatePath" value="generator/mapper.ftl"/>-->
+            <!--<property name="mapperSuffix" value="Dao"/>-->
+            <!--<property name="fileName" value="${tableClass.shortClassName}${mapperSuffix}.java"/>-->
+        <!--</plugin>-->
+        <!--&lt;!&ndash;mapper.xml&ndash;&gt;-->
+        <!--<plugin type="tk.mybatis.mapper.generator.TemplateFilePlugin">-->
+            <!--<property name="targetProject" value="src/main/java"/>-->
+            <!--<property name="targetPackage" value="${package.xml}"/>-->
+            <!--<property name="mapperPackage" value="${package.mapper}"/>-->
+            <!--<property name="templatePath" value="generator/mapperXml.ftl"/>-->
+            <!--<property name="mapperSuffix" value="Dao"/>-->
+            <!--<property name="fileName" value="${tableClass.shortClassName}${mapperSuffix}.xml"/>-->
+        <!--</plugin>-->
+        <!--通用代码生成器插件-->
+        <!--mapper接口-->
+        <plugin type="tk.mybatis.mapper.generator.TemplateFilePlugin">
+            <property name="targetProject" value="src/main/java"/>
+            <property name="targetPackage" value="${package.mapper}"/>
+            <property name="templatePath" value="generator/mapper.ftl"/>
+            <property name="mapperSuffix" value="Map"/>
+            <property name="fileName" value="${tableClass.shortClassName}${mapperSuffix}.java"/>
+        </plugin>
+        <!--mapper.xml-->
+        <plugin type="tk.mybatis.mapper.generator.TemplateFilePlugin">
+            <property name="targetProject" value="src/main/resources"/>
+            <property name="targetPackage" value="${package.xml}"/>
+            <property name="mapperPackage" value="${package.mapper}"/>
+            <property name="templatePath" value="generator/mapperXml.ftl"/>
+            <property name="mapperSuffix" value="Map"/>
+            <property name="fileName" value="${tableClass.shortClassName}${mapperSuffix}.xml"/>
+        </plugin>
+        <!--optional,旨在创建class时，对注释进行控制-->
+        <commentGenerator>
+            <property name="suppressDate" value="true" />
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressAllComments" value="true" />
+        </commentGenerator>
+
+        <jdbcConnection driverClass="${jdbc.driverClass}"
+                        connectionURL="${jdbc.url}"
+                        userId="${jdbc.username}"
+                        password="${jdbc.password}">
+            <property name="nullCatalogMeansCurrent" value="true"/>
+        </jdbcConnection>
+
+        <!--MyBatis 生成器只需要生成 Model-->
+        <javaModelGenerator targetPackage="${package.model}"
+                            targetProject="./src/main/java"/>
+
+        <table tableName="fileModel" schema="use_cloud">
+            <generatedKey column="id" sqlStatement="JDBC"/>
+        </table>
+        <table tableName="dir" schema="use_cloud">
+            <generatedKey column="id" sqlStatement="JDBC"/>
+        </table>
+    </context>
+</generatorConfiguration>

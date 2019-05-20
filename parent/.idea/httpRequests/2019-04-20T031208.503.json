@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-04-20T07:12:08.292+0000",
+  "path": "/file/getWeka1",
+  "status": 503,
+  "error": "Service Unavailable",
+  "message": "Unable to find instance for file"
+}

@@ -1,0 +1,23 @@
+server:
+  port: 9991
+spring:
+  application:
+      name: file
+  cloud:
+      consul:
+        discovery:
+          instance-id: ${spring.application.name}:${server.port}
+          register: true
+  #        prefer-ip-address: true
+          hostname: 119.23.52.225
+  datasource:
+        url: jdbc:mysql://119.23.52.225:3306/test?characterEncoding=utf-8&autoReconnect=true&useSSL=false
+        username: yangyangyang
+        password: yyy
+        driver-class-name: com.mysql.cj.jdbc.Driver
+  servlet:
+    multipart:
+      max-file-size: 100MB
+
+model:
+  path: ~/model.arff

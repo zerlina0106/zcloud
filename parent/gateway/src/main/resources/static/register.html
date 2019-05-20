@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Register</title>
+    <link rel="stylesheet" href="css/register.css" type="text/css"/>
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/network.js"></script>
+    <script type="text/javascript" src="js/register.js"></script>
+
+</head>
+<body>
+<div id="bg">
+    <div id="register-bg">
+        <div id="welcome-area">
+        </div>
+        <div id="input-username-area" >
+            <input type="text" placeholder="您的用户名"
+                   id="username-input" class="input-rim">
+        </div>
+        <div id="input-password-area">
+            <input type="password" placeholder="输入密码"
+                   id="password-input">
+        </div>
+        <div id="input-password-again-area">
+            <input type="password" placeholder="再次确认密码"
+                   id="password-again-input">
+        </div>
+        <div id="input-telephone-area">
+            <input type="text" placeholder="请输入手机号码"
+                   id="telephone-input">
+        </div>
+        <div id="input-verificationCode-area">
+            <input type="text" placeholder="请输入验证码"
+                   id="verificationCode-input">
+            <input type="button" id="verification-btn"
+                   value="点击获取" onclick="setTime(this)" />
+        </div>
+        <div id="register-area">
+            <input type="submit" id="register-submit"
+                   value="注册" onclick="registerFunction();">
+        </div>
+    </div>
+</div>
+</body>
+</html>

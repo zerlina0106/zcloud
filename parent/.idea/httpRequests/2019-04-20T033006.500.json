@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-04-20T07:30:06.694+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "当前实体类不包含名为UID的属性!",
+  "path": "/getDir"
+}

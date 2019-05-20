@@ -1,0 +1,25 @@
+{
+  "messages": [
+    {
+      "code": "1000",
+      "message": "success."
+    }
+  ],
+  "data": {
+    "total": 1,
+    "rows": [
+      {
+        "id": null,
+        "uid": -1,
+        "fid": -50,
+        "superid": 0,
+        "name": "生活",
+        "createtime": "2019-04-20T07:27:09.814+0000",
+        "type_1": null,
+        "type_2": null,
+        "size": null
+      }
+    ]
+  },
+  "code": "1000"
+}

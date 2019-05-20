@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head>
+    <title>主页</title>
+    <link rel="stylesheet" href="css/home.css" type="text/css"/>
+    <link rel="stylesheet" href="css/dir.css" type="text/css"/>
+    <link rel="stylesheet" href="css/file.css" type="text/css"/>
+    <link rel="stylesheet" href="css/marginalArea.css" type="text/css"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/home.js"></script>
+    <script type="text/javascript" src="js/dfile.js"></script>
+    <script type="text/javascript" src="js/option.js"></script>
+    <script type="text/javascript" src="js/margin.js"></script>
+    <script type="text/javascript" src="js/network.js"></script>
+
+</head>
+<body onload="beginInterface()">
+<iframe src="header.html" frameborder="0" style="width:100%; margin-top: -15px"></iframe>
+
+<ul class="menu" id="menu" style="display: none;">
+    <li onclick="rightOpen()"><a>打开</a></li>
+    <li onclick="rightDownload()"><a>下载</a></li>
+    <li onclick="rightRename()"><a>重命名</a></li>
+    <li onclick="rightMove()"><a>移动到</a></li>
+    <li onclick="rightDelete()"><a>删除</a></li>
+</ul>
+
+<div>
+    <div id="bg">
+        <div id="left-bg" style="margin-top: 50px">
+
+            <div class="left-choose-area " onclick="returnHome()">
+                <div class="img"><img class="thumbnail-area" src=""></div>
+                <div class="font-area">全部文件</div>
+            </div>
+            <div class="left-choose-area" onclick="searchPictures()">
+                <div class="img"><img class="thumbnail-area" src=""></div>
+                <div class="font-area">图片</div>
+            </div>
+            <div class="left-choose-area" onclick="searchVideos()">
+                <div class="img"><img class="thumbnail-area" src=""></div>
+                <div class="font-area">视频</div>
+            </div>
+            <div class="left-choose-area" onclick="searchMusics()">
+                <div class="img"><img class="thumbnail-area" src=""></div>
+                <div class="font-area">音乐</div>
+            </div>
+            <div class="left-choose-area" onclick="searchNobel()">
+                <div class="img"><img class="thumbnail-area" src=""></div>
+                <div class="font-area">文档</div>
+            </div>
+            <div class="left-choose-area" onclick="goUploadPage()">
+                <div class="img"><img class="thumbnail-area" src=""></div>
+                <div class="font-area">上传中</div>
+            </div>
+            <div class="left-choose-area" onclick="goDownloadPage()">
+                <div class="img"><img class="thumbnail-area" src=""></div>
+                <div class="font-area">下载中</div>
+            </div>
+            <div class="left-choose-area" onclick="returnRecycleBin()">
+                <div class="img"><img class="thumbnail-area" src=""></div>
+                <div class="font-area middle">回收站</div>
+            </div>
+
+        </div>
+        <div id="floor2">
+            <div id="search-area">
+                <input type="text" id="search-text" style="width:100%;  height:30px;"
+                       placeholder="搜索您的文件" onkeydown="beginSearch(event)">		<!--优先-->
+            </div>
+        </div>
+
+        <div id="main-bg">
+
+
+            <div id="floor1">
+                <div id="upload-file-area">
+                    <label style="width:70px;">
+                        <input type="file" id="upload-file" onchange="uploadFile()">
+                        <span>选择文件</span>
+                    </label>
+                </div>
+                <div id="upload-dir-area">
+                    <label style="width:80px;">
+                        <input type="file" id="upload-dir" onchange="getUploadDirPath()" webkitdirectory >
+                        <span>选择文件夹</span>
+                    </label>
+                </div>
+                <div id="new-folder-area" onclick="createNewFolder()">
+                    <label style="width:80px;">
+                        <span>新建文件夹</span>
+                    </label>
+                </div>
+                <div id="download-area" onclick="downloadClick()">
+                    <label style="width:35px;">
+                        <span>下载</span>
+                    </label>
+                </div>
+                <div id="classify-area" onclick="beginInterface2()">
+                    <div class="img"><img class="thumbnail-area" style="width: 60%" src=""></div>
+                    <label id="classify" style="width:70px;" >
+                        <span>智能分类</span>
+                    </label>
+                </div>
+                <div id="last-back" style="display:none;" onclick="lastCatalogue()">
+                    <label style="width:80px;">
+                        <span>返回上一级</span>
+                    </label>
+                </div>
+            </div>
+
+
+            <div id="floor3">
+                <div id="choose-all-area">
+                    <label id="choose-all">
+                        <input type="checkbox" onclick="chooseAll(this)">
+                        <i>✓</i>
+                        全选
+                    </label>
+                </div>
+                <div id="size-area">
+                    <span>文件大小</span>
+                </div>
+                <div id="date-area">
+                    <span>日期</span>
+                </div>
+            </div>
+
+            <div id="DFile-area">
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="loading-area" style="display: none">  </div>
+
+</body>
+</html>

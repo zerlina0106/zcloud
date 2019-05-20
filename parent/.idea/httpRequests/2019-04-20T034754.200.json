@@ -1,0 +1,36 @@
+{
+  "messages": [
+    {
+      "code": "1000",
+      "message": "success."
+    }
+  ],
+  "data": {
+    "total": 2,
+    "rows": [
+      {
+        "id": 1,
+        "uid": 1,
+        "fid": 1,
+        "superid": null,
+        "name": "杨泽民.pdf",
+        "createtime": "2019-04-19T08:49:53.000+0000",
+        "type_1": null,
+        "type_2": null,
+        "size": 268959
+      },
+      {
+        "id": 9,
+        "uid": 1,
+        "fid": 8,
+        "superid": null,
+        "name": "课堂测试.doc",
+        "createtime": "2019-04-20T06:33:08.000+0000",
+        "type_1": null,
+        "type_2": null,
+        "size": 68096
+      }
+    ]
+  },
+  "code": "1000"
+}

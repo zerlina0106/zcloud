@@ -1,0 +1,67 @@
+
+#user-log-area{
+    width: 100px;
+    height: 60px;
+    float: right;
+    right: 100px;
+    top: 5px;
+    /*background-color: red;*/
+}
+#head-portrait-area{
+    float: left;
+    margin:10px auto
+}
+#head-portrait-area img{
+    width: 45px;
+    height: 45px;
+    border-radius:50%;
+}
+
+#left-bg >div{
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+}
+.left-choose-area:hover{
+    cursor:hand;
+    background: whitesmoke;
+    opacity: 0.5;
+    text-shadow: 5px 5px 5px black, 0 0 2px black;
+}
+/* 图片 */
+.left-choose-area .img{
+    width: 40px;
+    height: 50px;
+    float: left;
+}
+
+.img img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 80%;
+    height: 60%;
+}
+/* 全部文件 */
+#left-bg .allFile .font-area{
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 20px !important;
+    float: left;
+}
+/* 图片后面的文字*/
+#left-bg .font-area{
+    font-weight: bold;
+    width: 90px;
+    height: 50px;
+    font-size: 19px;
+    float: right;
+    color: white;
+    line-height: 50px;
+}
+
+
+.left-choose-area .middle{
+    display: inline-block;
+    line-height: 50px;
+    color: white;
+}
